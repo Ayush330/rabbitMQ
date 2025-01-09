@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	go producer()
+	//go producer()
 	go consumer()
 	select {}
 }
